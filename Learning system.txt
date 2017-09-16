@@ -1,0 +1,45 @@
+Wellcome to 
+		LEARNING SYSTEM 
+
+1. Idea - create a SW program for easier learning. 
+2. Design
+	* Subject
+		> Topic
+			- Summary
+			- key words - keylord description pair
+			- Questions - answer pair
+			- Track - which part is covered
+				# target time
+				# time passed
+			- relations
+		> Task
+			- description
+			- readyness (% ready)
+			- estimated time
+			- actual time
+			- status
+			- related to other tasks
+
+3. Workflow
+	- Open console
+	A Start program via console
+		* List Subjects
+		* Create Subject
+		* Select existing Subject
+		* Delete Subject
+		* Print summary of a Subject ( all topics and/or all tasks)
+	
+	B Working inside Suject
+		* List Topics
+		* List Tasks ( with % readyness)
+		* Create Topic
+		* Create Task
+		* Update Topic
+		* Update Task
+	
+
+4. Use relations and keywords to make mind map of a subject!
+
+5. Implementation with Java on NetBean, MySQL, Apache Server, Form framework. 
+
+6. First usage - ruby programming
