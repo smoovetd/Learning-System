@@ -9,7 +9,7 @@ public class OutputConsole implements Output {
         
     }
     
-    public OutputConsole getOutputInstance(){
+    public static OutputConsole getOutputInstance(){
         return outputInstance;
     }
     
@@ -25,7 +25,7 @@ public class OutputConsole implements Output {
 
     @Override
     public void printFormatted(String text, String formatArgs) {
-        System.out.printf(text, args);
+        System.out.printf(text, formatArgs);
     }
            
 }
